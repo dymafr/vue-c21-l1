@@ -24,9 +24,9 @@ if (route.params.productId) {
 const initialValues = {
   title: product.value ? product.value.title : '',
   image: product.value ? product.value.image : '',
-  price: product.value ? product.value.price : '',
+  price: product.value ? product.value.price : 0,
   description: product.value ? product.value.description : '',
-  category: product.value ? product.value.category : '',
+  category: product.value ? product.value.category : 'desktop',
 };
 
 onMounted(() => {
