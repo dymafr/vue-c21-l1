@@ -15,7 +15,7 @@ import type {
   ProductCartInterface,
   ProductInterface,
   FilterUpdate,
-} from '../../interfaces';
+} from '../../shared/interfaces';
 import { DEFAULT_FILTERS } from './data/filters';
 import { fetchProducts } from '../../shared/services/product.service';
 import { pageKey } from '../../shared/injectionKeys/pageKey';
