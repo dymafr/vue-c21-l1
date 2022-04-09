@@ -2,7 +2,7 @@ import type {
   FiltersInterface,
   ProductInterface,
   ProductFormInterface,
-} from '../../interfaces';
+} from '../interfaces';
 import { ref, Ref } from 'vue';
 
 const BASE_URL = 'https://restapi.fr/api/vueprojectproducts';

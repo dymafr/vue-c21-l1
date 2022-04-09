@@ -8,7 +8,7 @@ import {
   editProduct,
   getProduct,
 } from '../../../shared/services/product.service';
-import type { ProductInterface } from '../../../interfaces/Product.interface';
+import type { ProductInterface } from '../../../shared/interfaces/Product.interface';
 import { useRoute, useRouter } from 'vue-router';
 
 const firstInput = ref<HTMLInputElement | null>(null);

@@ -3,7 +3,7 @@ import TheHeader from './components/Header.vue';
 import TheFooter from './components/Footer.vue';
 import { seed40articles, seed } from './data/seed';
 
-// seed('vueprojectproducts')
+// seed('vueprojectproducts');
 // seed40articles('vueprojectproducts');
 </script>
 

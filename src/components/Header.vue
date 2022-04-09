@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Page } from '../interfaces';
+import type { Page } from '../shared/interfaces';
 import { reactive } from 'vue';
 import Calc from './Calc.vue';
 
