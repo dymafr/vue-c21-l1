@@ -3,7 +3,7 @@ import type {
   FiltersInterface,
   FilterUpdate,
   Category,
-} from '../../interfaces';
+} from '../../../../shared/interfaces';
 defineProps<{
   filters: FiltersInterface;
   nbrOfProducts: number;

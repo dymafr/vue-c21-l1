@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ProductInterface } from '@/interfaces';
+import type { ProductInterface } from '../../../../shared/interfaces';
 import ShopProduct from './ShopProduct.vue';
 import { pageKey } from '../../../../shared/injectionKeys/pageKey';
 import { inject, onUpdated, ref, watch } from 'vue';
